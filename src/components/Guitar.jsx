@@ -1,6 +1,6 @@
 export default function Guitar({guitar,addToCart}) {
 
-    const {id, name, price, image, description} = guitar;
+    const {id, name, price, image, description} = guitar
 
     return(
         <div className="col-md-6 col-lg-4 my-4 row align-items-center">
